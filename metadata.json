@@ -1,0 +1,7 @@
+{
+  "name": "Sign to Speech AI",
+  "description": "An AI-powered application that interprets American Sign Language (ASL) from your camera and converts it into spoken words using Gemini.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
