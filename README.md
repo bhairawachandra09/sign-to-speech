@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sign to Speech Converter
 
-# Run and deploy your AI Studio app
+A simple web-based Sign-to-Speech prototype that uses a webcam to detect hand signs 
+(fake detection for demo purposes) and converts the detected sign into speech using 
+the Web Speech API.
 
-This contains everything you need to run your app locally.
+This project includes:
+- Webcam live feed
+- Basic (dummy) sign recognition logic
+- Speech synthesis output
+- Clean and simple UI
 
-View your app in AI Studio: https://ai.studio/apps/drive/14b4s8eolvnNviZTYUzhZuBqtY00aI0zW
+---
 
-## Run Locally
+## 📂 Project Structure
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
